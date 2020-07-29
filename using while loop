@@ -7,10 +7,10 @@ count = 0
 if n_terms <= 0:
    print("Please enter a valid positive integer")
 elif n_terms == 1:
-   print("Fibonacci sequence upto",n_terms,":")
+   print("Fibonacci sequence upto", n_terms, "term:")
    print(n1)
 else:
-   print("Fibonacci sequence:")
+   print("Fibonacci sequence upto", n_terms, "terms:")
    while count < n_terms:
        print(n1)
        nth = n1 + n2
